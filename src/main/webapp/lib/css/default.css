@@ -1,0 +1,98 @@
+/* 转换CSS成功 */
+*{
+        font-family: 黑体;
+}
+html,
+body{width:100%; height:100%}
+.h{height:100px}
+.header{width:100%; height:80px; background-color:#09b0fe}
+.header .head{padding:10px; display:-webkit-box}
+.header .head img{width:60px; height:60px; border-radius:20%; -webkit-border-radius:20%}
+.header .head ul{margin-left:15px}
+.header .head ul li:first-child{font-size:1.3em; font-weight:900}
+.header .head ul li{line-height:30px; color:#fff; font-size:1.2em}
+.header .head .shezhi{position:absolute; right:10px}
+.header .head .shezhi img{width:30px; height:30px}
+#info{background-color:#efeff4}
+#info .details ul{height:21px; width:100%; display:-webkit-box; background-color:#fff}
+#info .details ul li{margin-top:5px; text-align:center; width:25%; color:#09b0fe; font-size:1.2em}
+#info .details ul .sx::after{content:""; position:absolute; top:0; right:0; height:40px; border-right:1px solid #d9d9d9; margin-top:2px}
+#info .details .number li{color:#d9d9d9; font-size:1.2em}
+#info .menu{margin-top:20px}
+#info .menu ul{border-top:1px solid #d9d9d9; border-bottom:1px solid #d9d9d9; background-color:#fff; padding:0 10px}
+#info .menu ul li{line-height:30px}
+#info .menu ul li a{line-height:50px; width:100%; height:50px; display:-webkit-box}
+#info .menu ul li a img:first-child{width:30px; height:30px; position:absolute; left:10px; top:10px}
+#info .menu ul li a img{width:8px; height:15px; position:absolute; right:10px; top:18px}
+#info .menu ul li a span{font-size:1.4em; color:#000; margin-left:60px;width: 80%;white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;}
+#info .menu ul .bsx::after{content:""; position:absolute; right:0; width:100%; border-bottom:1px solid #d9d9d9}
+#info .h{height:100px}
+.footer{width:100%; height:49px; position:fixed; bottom:0; left:0; display:-webkit-box; background-color:#fff}
+.footer ul{width:100%; display:-webkit-box}
+.footer ul li,
+.footer ul a{width: 25%;
+text-align: center;
+line-height: 19px;
+margin-top: 8px;
+color: gray;}
+.footer ul li img,
+.footer ul a img{margin:0 auto; width:25px}
+#myBill .a4{
+    color: #09b0fe;
+}
+#info .a4{
+     color: #09b0fe;
+}
+#news .a2{
+    color: #09b0fe;
+}
+#address_info .a4{
+     color: #09b0fe;
+}
+#address_info{background-color:#efeff4}
+.address_info img{width:30px; height:30px; float:left}
+.address_info p{padding:20px; font-size:1.3em; line-height:30px}
+.address_info p b{margin-left:10px}
+.address_info ul{border-top:1px solid #d9d9d9; border-bottom:1px solid #d9d9d9}
+.address_info ul li{background-color:#fff}
+.address_info ul li p{font-size:1.3em; padding:10px; font-weight:600}
+.address_info ul .hx::after{content:" "; position:absolute; bottom:0; left:0px; width:100%; border-bottom:1px solid #d9d9d9}
+.modify_pwd{padding-top:20px}
+.modify_pwd ul{border-top:1px solid #d9d9d9; border-bottom:1px solid #d9d9d9}
+.modify_pwd ul li{margin:20px 15px 10px 15px; font-size:1.3em; font-weight:600}
+.modify_pwd ul li button{background-color:#f85118; font-size:1em; color:#fff; padding:7px; position:absolute; right:0px; top:-5px; border-radius:10%; -webkit-border-radius:10%}
+.modify_pwd ul .hx::after{content:" "; position:absolute; bottom:-10px; left:0px; width:100%; border-bottom:1px solid #d9d9d9}
+.modify_pwd .footer{height:70px; width:100%; border-top:1px solid #d9d9d9}
+.modify_pwd .footer a{width:50px; height:50px; padding:20px 10px; position:absolute; top:0; left:0px}
+.modify_pwd .footer a img{width:30px; height:30px; margin:0 auto}
+.modify_pwd .footer button{background-color:#09b0fe; position:absolute; right:10px; top:15px; padding:10px 30px; color:#fff; border-radius:10%; -webkit-border-radius:10%; font-weight:600; font-size:1.3em}
+#myBill .details{padding-top:10px}
+#myBill .details ul{height:25px; width:100%; display:-webkit-box; background-color:#fff}
+#myBill .details ul li{margin-top:5px; text-align:center; width:33.33%; color:#09b0fe; font-size:1.3em}
+#myBill .details ul li input{font-size:1em; width:80%; height:25px; color:#09b0fe; overflow:hidden; margin-top:10px}
+#myBill .details ul li input::after{position:absolute; content:""; height:0; width:0; pointer-events:none; border:solid transparent; border-color:rgba(136, 183, 213, 0); border-top-color:#09b0fe; border-width:5px; right:10px; margin-top:10px}
+#myBill .details ul .sx::after{content:""; position:absolute; top:0; right:0; height:40px; border-right:1px solid #d9d9d9; margin-top:2px}
+#myBill .details .number li{color:#d9d9d9; font-size:1.2em}
+#myBill .myBill_det{padding:15px; height:60px; border-bottom:1px solid #d9d9d9; display:-webkit-box}
+#myBill .myBill_det img{width:60px; height:60px; border-radius:20%; -webkit-border-radius:20%}
+#myBill .myBill_det ul{margin-left:15px; display:block; width:auto}
+#myBill .myBill_det ul li:first-child{font-size:1.3em; font-weight:900; color:#000}
+#myBill .myBill_det ul li{line-height:30px; color:#d9d9d9; font-size:1.2em; width:100%}
+#myBill .myBill_det b{line-height:60px; position:absolute; right:10px; font-size:1.3em}
+#news{background-color:#f0eff5}
+#news .title{background-color:#09b0fe; text-align:center; margin:0 auto; top:20px; padding:5px 5px; font-size:1.3em; font-weight:900; color:#fff; display:table; border-radius:10%; -webkit-border-radius:10%}
+#news .main{margin-top:40px; border-top:1px solid #d9d9d9; border-bottom:1px solid #d9d9d9}
+#news .main .bgc{background-color:#fff}
+#news .main .bgc p{padding:0px 20px; font-size:1.3em; color:#d9d9d9; line-height:25px; border-bottom:1px solid #d9d9d9}
+#news .main .bgc .myBill_det{margin:0 15px; padding:10px 0; height:60px; border-bottom:1px solid #d9d9d9; display:-webkit-box}
+#news .main .bgc .myBill_det img{width:60px; height:60px; border-radius:20%; -webkit-border-radius:20%}
+#news .main .bgc .myBill_det ul{margin-left:15px; display:block; width:auto}
+#news .main .bgc .myBill_det ul li:first-child{font-size:1.3em; font-weight:900; color:#000}
+#news .main .bgc .myBill_det ul li{line-height:30px; color:#d9d9d9; font-size:1.2em; width:100%}
+#news .main .bgc .myBill_det em{line-height:60px; position:absolute; right:10px; font-size:1.3em}
+#news .main .bgc .myBill_det em img{width:30px; height:20px}
+
+/* 2015-09-10 15:05:32 */

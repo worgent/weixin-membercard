@@ -1,0 +1,97 @@
+body,
+html {
+    height: 100%;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.mainDIV {
+    margin-top: 7em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.mainDIV label {
+    font-size: 50px;
+    font-family: 微软雅黑;
+}
+
+.mainDIV input[type="text"] {
+    height: 95px;
+    font-size: 3em;
+}
+
+.ui-btn {
+    height: 65px;
+}
+
+.ui-btn span {
+    font-size: 2.2em;
+}
+
+.ui-input-text input[type="date"] {
+    height: 90px;
+    font-size: 2.2em;
+}
+
+.ui-input-btn {
+    font-size: 3em;
+    font-family: 黑体;
+}
+
+.ui-input-btn input {
+    background-color: cornflowerblue;
+}
+
+.ui-input-text {
+    margin-bottom: 4em;
+}
+
+.ui-select {
+    margin-bottom: 4em;
+}
+
+.chackedDiv {
+    height: 6em;
+    width: 58%;
+    float: left;
+}
+
+.chackedDiv input[type="text"] {
+    width: 100%;
+    height: 100%;
+}
+
+.chackedDiv_2 input[type="button"] {
+    width: 100%;
+    height: 2em;
+    border: 0;
+    font-size: 3em;
+    color: white;
+    background-color: coral;
+}
+
+.chackedDiv_2 {
+    width: 42%;
+    height: 6.4em;
+    background-color: coral;
+    float: right;
+}
+
+.chacked {
+    height: 6em;
+    margin-bottom: 4em;
+    width:100%;
+}
+
+
+/*.ui-input-btn input[name="testName"]{
+    width: 50%;
+}*/
+
+
+/*#testME{
+    width: 50%;
+}*/

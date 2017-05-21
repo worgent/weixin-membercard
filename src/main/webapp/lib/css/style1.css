@@ -1,0 +1,174 @@
+*{
+    font-family: 黑体;
+}
+body {
+    background-color: #fff;
+    /*text-align: center;*/
+    margin: 0 auto;
+    /*margin: 0;*/
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="date"],
+input[type="text"] {
+    -webkit-appearance: none;
+}
+
+
+/*.homePage {
+    max-width: 600px;
+    min-width: 300px;
+    margin: 4em auto;
+    position: relative;
+    background-size: 100% 100%;
+}*/
+
+.top {
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 2em;
+    height: 65px;
+    
+}
+
+.top input[type="button"]{
+    font-size: 32px;
+    width: 250px;
+    height: 100%;
+    border: 0;
+    color: deepskyblue;
+    background-color: white;
+    padding: 0;
+    float: left;
+    /*border-right: 2px solid deepskyblue;*/
+     border: 2px solid deepskyblue;
+}
+
+
+.content {
+    background-color: white;
+    /* padding-left: 2em;*/
+}
+
+.top label {
+    font-size: 40px;
+    background-color: lightskyblue;
+    font-family: 微软雅黑;
+    color: white;
+    border-radius: 7%;
+    /* width: 92px; */
+    padding: 9px;
+}
+
+.a1 {
+    list-style: none;
+}
+
+.content_1 {
+    display: -webkit-box;
+    height: 75px;
+    padding-left: 2em;
+}
+
+.content_1 ul {
+    padding-left: 20px;
+}
+
+.time {
+    line-height: 70px;
+    font-size: 1.5em;
+    color: darkgrey;
+}
+
+.title {
+    font-size: 2em;
+    font-weight: 900;
+    line-height: 8px;
+}
+
+.s1 {
+    /*padding-left: 0;*/
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.u2 {
+    padding-left: 2em;
+    border-bottom: 2px solid #d9d9d9;
+}
+
+
+/*
+.footer{
+    width: 100%;
+height: 70px;
+position: fixed;
+bottom: 0;
+left: 0;
+display: -webkit-box;
+background-color: #fff;
+}
+
+.footer ul {
+width: 100%;
+display: -webkit-box;
+}
+.footer ul li, .footer ul a {
+width: 25%;
+text-align: center;
+line-height: 30px;
+margin-top: 15px;
+color: #d9d9d9;
+}
+
+*/
+
+.footer {
+  width: 100%;
+/* height: 70px; */
+position: fixed;
+bottom: 0;
+left: 0;
+display: -webkit-box;
+background-color: #fff;
+}
+
+.footer ul {
+   display: -webkit-box;
+padding-left: 0;
+width: 100%;
+list-style: none;
+}
+
+.footer ul li {
+width: 25%;
+text-align: center;
+line-height: 30px;
+margin-top: 15px;
+color: #d9d9d9;
+}
+
+.footer ul a {
+text-decoration: none;
+/* color: darkgray; */
+width: 25%;
+text-align: center;
+font-size: 30px;
+line-height: 55px;
+margin-top: 15px;
+color: #d9d9d9;
+}
+
+.footer ul a img {
+
+    width: 55px;
+margin: 0 auto;
+display: block;
+}
+.homePage_2{
+    text-align: center;
+}

@@ -1,0 +1,37 @@
+﻿<!doctype html>
+<html>
+ <head>
+  <title>扫码支付前台demo</title>
+  <meta name="keywords" content="关键字">
+  <meta name="description" content="描述">
+  <meta name="content-type" content="text/html;charset=gbk">
+  
+  <script src="qrcode.js"></script>
+	
+ </head>
+
+ <body>
+	
+	<div align="center" id="qrcode">
+		<p >
+		扫我，扫我
+		<br><br>
+		QQ:553018567
+		</p>
+	</div>
+ </body>
+
+ <script>
+ 	//这个地址是Demo.java生成的code_url,这个很关键
+	var url = "weixin://wxpay/bizpayurl?pr=IrbYjQm";
+	
+	//参数1表示图像大小，取值范围1-10；参数2表示质量，取值范围'L','M','Q','H'
+	var qr = qrcode(10, 'M');
+	qr.addData(url);
+	qr.make();
+	var dom=document.createElement('DIV');
+	dom.innerHTML = qr.createImgTag();
+	var element=document.getElementById("qrcode");
+	element.appendChild(dom);
+ </script>
+</html>

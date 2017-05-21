@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+    <properties resource="generator.properties"></properties>
+
+    <classPathEntry location="${jdbc.driverLocation}"/>
+
+    <context id="DB2Tables" targetRuntime="MyBatis3">
+
+
+        <commentGenerator>
+            <property name="suppressDate" value="true" />
+        </commentGenerator>
+
+
+        <jdbcConnection driverClass="${jdbc.driverClass}" connectionURL="${jdbc.connectionURL}" userId="${jdbc.userId}" password="${jdbc.password}">
+        </jdbcConnection>
+
+ <!-- Model模型生成器,用来生成含有主键key的类，记录类 以及查询Example类  
+            targetPackage     指定生成的model生成所在的包名  
+            targetProject     指定在该项目下所在的路径  
+        -->
+        <javaModelGenerator targetPackage="weixin.assistant.model" targetProject="C:\workdir\backEnd\trunk\weixin-assistant\src\main\java">
+            <property name="constructorBased" value="true"/>
+            <property name="enableSubPackages" value="false"/>
+            <property name="immutable" value="false"/>
+            <property name="trimStrings" value="true"/>
+        </javaModelGenerator>
+
+        <!--Mapper映射文件生成所在的目录 C:\work\backEnd\trunk\vip-card为每一个数据库的表生成对应的SqlMap文件  D:\1me\newwork\weixin-assistant  C:\Users\tianbaochao\svnwork\sns\trunk\jumppath\src\main\java-->
+        <sqlMapGenerator targetPackage="src.main.resources.mapper" targetProject="C:\workdir\backEnd\trunk\weixin-assistant">
+            <property name="enableSubPackages" value="false"/>
+        </sqlMapGenerator>
+
+        <javaClientGenerator targetPackage="weixin.assistant.dao" targetProject="C:\workdir\backEnd\trunk\weixin-assistant\src\main\java" type="XMLMAPPER">
+            <property name="enableSubPackages" value=""/>
+            <property name="exampleMethodVisibility" value=""/>
+            <property name="methodNameCalculator" value=""/>
+            <property name="rootInterface" value=""/>
+
+        </javaClientGenerator>
+
+        <table tableName="key_value" schema="">
+            <generatedKey column="id" sqlStatement="SELECT LAST_INSERT_ID()" identity="true" type=""/>
+        </table>
+        <table tableName="weixin_gzh" schema="">
+            <generatedKey column="id" sqlStatement="Mysql" identity="true" type=""/>
+        </table>
+        <table tableName="weixin_gzh_pay" schema="">
+            <generatedKey column="id" sqlStatement="Mysql" identity="true" type=""/>
+        </table>
+        <table tableName="weixin_gzh_authorizer" schema="">
+            <generatedKey column="id" sqlStatement="SELECT LAST_INSERT_ID()" identity="true" type=""/>
+        </table>
+        <table tableName="weixin_user" schema="">
+            <generatedKey column="id" sqlStatement="SELECT LAST_INSERT_ID()" identity="true" type=""/>
+        </table>
+        <table tableName="weixin_user_authorizer" schema="">
+            <generatedKey column="id" sqlStatement="SELECT LAST_INSERT_ID()" identity="true" type=""/>
+        </table>
+
+        <table tableName="vip_business" schema="">
+            <generatedKey column="id" sqlStatement="SELECT LAST_INSERT_ID()" identity="true" type=""/>
+        </table>
+        <table tableName="vip_member" schema="">
+            <generatedKey column="id" sqlStatement="SELECT LAST_INSERT_ID()" identity="true" type=""/>
+        </table>
+        <table tableName="vip_message" schema="">
+            <generatedKey column="id" sqlStatement="SELECT LAST_INSERT_ID()" identity="true" type=""/>
+        </table>
+        <table tableName="vip_pay_order" schema="">
+            <generatedKey column="id" sqlStatement="SELECT LAST_INSERT_ID()" identity="true" type=""/>
+        </table>
+        <table tableName="vip_recharge_order" schema="">
+            <generatedKey column="id" sqlStatement="SELECT LAST_INSERT_ID()" identity="true" type=""/>
+        </table>
+
+    </context>
+</generatorConfiguration>  

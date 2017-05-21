@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:task="http://www.springframework.org/schema/task"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+      http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+      http://www.springframework.org/schema/context
+      http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task.xsd">
+
+    <!-- 引入jdbc配置文件 -->
+    <context:property-placeholder location="classpath:conf/jdbc.properties"/>
+
+    <!-- 扫描文件（自动将servicec层注入） -->
+    <context:component-scan base-package="weixin.assistant.service"/>
+    <context:component-scan base-package="weixin.wxpay.service"/>
+    <context:component-scan base-package="weixin.guanjia.core.service"/>
+    <context:component-scan base-package="weixin.vip.service"/>
+
+    <task:annotation-driven/>
+
+    <!-- <bean id="urlFilter" class="cn.springmvc.Filter.FilterUrl">
+        <property name="shortUrlLogMapper">
+            <ref bean="shortUrlLogMapper"></ref>
+        </property>
+        <property name="shortUrlMapper">
+            <ref bean="shortUrlMapper"></ref>
+        </property>
+        <property name="pathManager" ref="pathManager"/>
+    </bean>
+    <bean id="pathManager" class="cn.springmvc.service.impl.PathManagerImpl">
+        <constructor-arg ref="shortUrlLogMapper"></constructor-arg>
+        <constructor-arg ref="shortUrlMapper"></constructor-arg>
+    </bean> -->
+</beans>

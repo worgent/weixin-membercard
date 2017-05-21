@@ -1,0 +1,164 @@
+* {
+    /* margin: 0;*/
+    outline: 0;
+    padding: 0;
+    font-size: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/*html {
+    height: 100%;
+    -webkit-text-size-adjust: none;
+}*/
+
+body {
+    background-color: #efeff4;
+    /*text-align: center;*/
+    margin: 0 auto;
+    /*margin: 0;*/
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="date"],
+input[type="text"] {
+    -webkit-appearance: none;
+}
+
+.mainDIV {
+    /* margin-top: 4em;
+     margin-left: 2em;
+     margin-right: 2em;*/
+    font-size: 12px;
+    max-width: 600px;
+    min-width: 300px;
+    margin: 4em auto;
+    position: relative;
+    background-size: 100% 100%;
+}
+.top {
+    width: 100%;
+
+    /*height: 130px;*/
+}
+.top img{
+    width: 100%;
+
+    height: 130px;
+}
+.mainDIV label {
+    font-family: "微软雅黑";
+    font-size: 45px;
+}
+
+.mainDIV input[type="text"] {
+height: 85px;
+    font-size: 45px;
+    width: 100%;
+
+    /*border-top-style: outset;
+    border-left-style: outset;*/
+    border: 1px solid gainsboro;
+   /* border-right-color: gainsboro;*/
+}
+
+
+/*.gender option:nth-child(2){
+    darkgray
+    font-size: 35px;
+    color:blue;
+}*/
+
+.gender select {
+   height: 85px;
+font-size: 45px;
+width: 100%;
+color: darkgray;
+/*border-width: 1px;*/
+    border: 0;
+
+}
+
+.mainDIV input[type="date"] {
+   height: 85px;
+font-size: 45px;
+width: 100%;
+border-width: 1px;
+    border: 0;
+}
+
+.mainDIV input[type="button"] {
+    width: 100%;
+    height: 85px;
+    font-size: 35px;
+    font-family: "微软雅黑";
+    background-color: cornflowerblue;
+    border: 0;
+    color: white;
+}
+
+.box {
+    margin-bottom: 1.5em;
+    width: 100%;
+    line-height: 70px;
+}
+.birthday {
+  margin-bottom: 3em;
+}
+.chacked {
+  margin-bottom: 3em;
+}
+.chacked img {
+    width: 38%;
+    height: 63px;
+}
+
+.chacked input[type="text"] {
+    width: 59%;
+    float: left;
+}
+
+.chacked input[type="button"] {
+    font-size: 34px;
+    width: 39%;
+    height: 87px;
+    border: 0;
+    background-color: coral;
+}
+
+.select_box {
+    height: 65px;
+}
+
+
+/*.select_box div{
+    float: left;
+    width: 29%;
+    margin-right: 2em;
+}*/
+
+.province {
+    float: left;
+    width: 30%;
+    margin-right: 2.5em;
+}
+
+.city {
+    float: left;
+    width: 30%;
+    margin-right: 2.5em;
+}
+
+.area {
+    float: left;
+    width: 30%;
+}
+
+.select {
+    font-size: 33px;
+    width: 100%;
+    height: 63px;
+}

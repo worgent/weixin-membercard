@@ -1,0 +1,31 @@
+.top {
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 2em;
+    height: 65px;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+
+.top input[type="button"]{
+    font-size: 32px;
+    width: 50%;
+    height: 100%;
+    border: 0;
+    color: deepskyblue;
+    background-color: white;
+    padding: 0;
+    float: left;
+    /*border-right: 2px solid deepskyblue;*/
+     border: 2px solid deepskyblue;
+}
+.top input:first-child{
+    background-color: deepskyblue;
+   /* border-right: 0;*/
+    color: white;
+    
+}
+.homePage_2{
+    text-align: center;
+}

@@ -1,0 +1,461 @@
+ body {
+     width: 100%;
+     height: 1000px;
+ }
+ /*
+    .left {
+           width: 12%;
+        height: 50%;
+    }*/
+ 
+ .header {
+     background: #ddd;
+     height: 80px;
+     box-shadow: 0px -6px 21px 2px;
+ }
+ 
+ .main {
+     width: 100%;
+     height: 100%;
+ }
+ 
+ .right {
+     height: 100%;
+
+ }
+ 
+
+ 
+ .input-myGroup {
+     width: 305px;
+     float: left;
+     margin-right: 25%;
+     margin-bottom: 30px;
+ }
+ 
+ .right-form {
+     border-top: 1px solid #ddd;
+     border-bottom: 1px solid #ddd;
+     height: 290px;
+     padding-top: 30px;
+     margin-bottom: 30px;
+ }
+ 
+ .select-span {
+     padding: 0 10px;
+ }
+ 
+ .btn-group {
+     width: 50%;
+ }
+ /*.btn:first-child{
+        color: #B3B3B3;
+    }*/
+ 
+ ul.nav-tabs {
+     /* width: 140px;*/
+     margin-top: 20px;
+     /* border-radius: 4px;
+        border: 1px solid #ddd;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);*/
+ }
+ 
+ ul.nav-tabs li {
+     margin: 0;
+     border-top: 1px solid #ddd;
+ }
+ 
+ ul.nav-tabs li:first-child {
+     border-top: none;
+ }
+ 
+ ul.nav-tabs li a {
+     margin: 0;
+     padding: 8px 16px;
+     border-radius: 0;
+ }
+ 
+ ul.nav-tabs li.active a,
+ ul.nav-tabs li.active a:hover {
+     color: #fff;
+     background: #0088cc;
+     border: 1px solid #0088cc;
+ }
+ 
+ /*.input-group .money-max {
+     width: 39%;
+     float: right;
+     border-radius: 4px;
+ }
+ */
+ /*.input-group .money-min {
+     width: 39%;
+     border-top-right-radius: 4px;
+     border-bottom-right-radius: 4px;
+ }*/
+ 
+ .input-group .money-zhi {
+     line-height: 33px;
+     margin-left: 3%;
+ }
+ 
+ .top-tag {
+     height: 40px;
+     background-color: bisque;
+     box-shadow: 1px 5px 7px #909090;
+     border-radius: 7px;
+     padding-left: 10px;
+ }
+ 
+ .top-tag span {
+     line-height: 41px;
+     font-size: 15px;
+     font-family: 黑体;
+ }
+ 
+ .right-search-form {
+     padding: 6px 0px 4px 0px;
+     height: 45px;
+     margin: 10px auto;
+ }
+ 
+ .right-search-form input[type="text"] {
+     float: left;
+     height: 34px;
+     width: 220px;
+ }
+ 
+ .right-search-form input[type="button"] {
+     height: 34px;
+ }
+ 
+ .viplist-select-group {
+     float: left;
+     height: 45px;
+ }
+ 
+ .vip-button-group {
+     padding: 0;
+     margin-bottom: 13px;
+ }
+ 
+ .serach-user-cz {
+     border: 1px solid #ddd;
+     height: 55px;
+     border-radius: 4px;
+     line-height: 42px;
+     padding: 5px;
+     margin-bottom: 25px;
+ }
+ 
+ .user-cz-select-group span {
+     margin: 0 10px 0 13px;
+ }
+ 
+ #iframe-div {
+     height: 100%;
+     /*display: none;*/
+ }
+ 
+ .right-button {
+     height: 35px;
+     width: 20%;
+ }
+ 
+ .index-iframe-modal-body {
+     height: 100%;
+     padding: 0;
+ }
+ /*.loadMore{
+     margin: 0 auto;
+     width: 170px;
+ }
+ .loadMore button{
+     width: 170px;
+ }
+*/
+ .paging{
+     float: right;
+ }
+ .updateWin{
+     width: 285px;
+     height: 400px;
+     margin: 0 auto;
+    /* padding: 13px;*/
+     border: 2px solid #666;
+     background-color: #ddd;
+     border-radius: 5px;
+     display: none;
+     position: absolute;
+     z-index: 9999;
+     top: 165px;
+     left: 35%;
+ }
+.updateWin-input-group{
+ margin-bottom: 15px;
+}
+ .updateWin-button{
+     text-align: center;
+ }
+ .updateWin-my-btn{
+     width: 100px;
+ }
+ .updateWin-title{
+     width: 281px;
+     height: 40px;
+     background-color: antiquewhite;
+     text-align: center;
+ }
+ .updateWin-title span{
+     font-size: 20px;
+     line-height: 36px;
+     font-family: 黑体;
+ }
+ .updateWin-concent{
+     margin: 13px;
+ }
+ .updateWin-input-group select{
+     width: 100%;
+     height: 34px;
+     border: 1.3px solid #ddd;
+     border-top-right-radius: 5px;
+     border-bottom-right-radius: 5px;
+ }
+ #login {
+     background-color: cadetblue;
+ }
+ #login .login-div {
+     width: 380px;
+     margin: 0 auto;
+     margin-top: 20%;
+     /* padding-left: 51px; */
+     /* padding-top: 30px; */
+     padding: 40px 60px 40px 60px;
+     border: 1px #ddd solid;
+     height: 213px;
+ }
+
+ #login .login-input {
+     margin-bottom: 15px;
+ }
+
+ #login .login-input span {
+     width: 71px;
+ }
+
+ #login .login-button button:first-child {
+     width: 70%;
+ }
+
+ #login .login-button button:last-child {
+     width: 28%;
+ }
+ #login .button-a a {
+     color: #333;
+     text-decoration: none;
+ }
+
+ .content {
+     /*width: 80%;*/
+     margin: 0 auto;
+     border: 1px #ddd solid;
+     border-top: 0;
+     height: 100%;
+ }
+
+ .part {
+     width: 870px;
+     margin: 0 auto;
+     background-color: whitesmoke;
+     padding-top: 15px;
+     height: 100%;
+     border: 1px #ddd solid;
+ }
+ .cp-manage-mingxi .part .part_0 .register-input-group{
+     width: 79%;
+ }
+
+ .register-input-group {
+     width: 82%;
+     margin-bottom: 10px;
+     display: inline-flex;
+     line-height: 31px;
+ }
+
+ .part_0 {
+     border-top: 2px #ddd solid;
+     padding-top: 15px;
+     /*  padding: 15px 0 0 77px;*/
+     margin-bottom: 10px;
+ }
+
+ .part_0 .lable {
+     text-align: right;
+     width: 170px;
+     margin-right: 15px;
+ }
+
+
+ .part_0 .business-part {
+     border: 1px #ddd solid;
+     /* height: 152px;*/
+     margin-bottom: 20px;
+ }
+ .part_0 .business-part img {
+     width: 200px;
+     height: 200px;
+ }
+ .part_0 .business-part img:hover {
+     width: 500px;
+     height: 500px;
+ }
+ .part_0 .business-part .business-part-title {
+     padding: 3px 0 2px 20px;
+     border-bottom: 1px #ddd solid;
+     margin-bottom: 15px;
+     background-color: aliceblue;
+ }
+
+ .part_0 input[type="text"] {
+     /* width: 58%;*/
+ }
+
+ .part_0 input[type="file"] {
+     /* width: 58%;*/
+ }
+
+ .part_0 .card-date {
+     display: inline-flex;
+     margin-bottom: 10px;
+     line-height: 31px;
+     width: 82%;
+ }
+
+ .part_0 .card-date .edit-date {
+     width: 100%;
+     display: inline-flex;
+ }
+ .part_0 .card-date .edit-date div:first-child{
+     margin-right: 5px;
+ }
+ .part_0 .card-date .edit-date div:last-child{
+     margin-left: 5px;
+ }
+ .part_0 .card-date .edit-date input[type="text"]{
+     /* width: 155px;*/
+     /*  padding: 0;*/
+
+ }
+
+ .part_0 .card-date .register-input-group {
+     width: 50%;
+     margin: 0;
+ }
+
+ .part_0 .card-date .date-pic-span {
+     /* padding: 8px 20px 0 6px;*/
+     /* display: inline-block;*/
+     width: 14px;
+     height: 34px;
+ }
+
+ .title-span {
+     font-size: 19px;
+     font-family: 楷体;
+ }
+
+ .register-button {
+     display: inline-flex;
+     /* width: 100%; */
+     margin-top: 20px;
+     /* padding: 0 10% 0 10%; */
+     float: right;
+     padding-right: 18%;
+ }
+
+ .register-button button {
+     height: 50px;
+     font-size: 28px;
+     font-family: 楷体;
+     letter-spacing: 20px;
+ }
+
+ .register-button button:first-child {
+     width: 248px;
+     background-color: coral;
+ }
+
+ .register-button button:last-child {
+     /*width: 360px;*/
+     background-color: cornflowerblue;
+ }
+.gzh-shouquan{
+    width: 115px;
+}
+.gzh-span1{
+    background: #40bf40;
+    /* margin-top: 25px; */
+    /* width: 10px; */
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 3px;
+    height: 38px;
+    font-family: 黑体;
+    line-height: 39px;
+}
+ a:hover {text-decoration:none;}
+ .header-userinfo {
+     float: right;
+     padding: 26px 42px 26px 0;
+ }
+ .table-list{
+     table-layout: fixed;
+     height: 165px;
+ }
+ .table-list tbody tr td{
+     padding-right: 0;
+ }
+ .table-list .gzh-info-tableData tr{
+     height: 140px;
+ }
+ .table-list td{
+     word-wrap: break-word;
+
+ }
+ .table-list tr td img{
+    width: 100%;
+ }
+ .table-list .td-div{
+     overflow: auto;
+     height: 100%;
+ }
+ .gzh-content{
+     border-bottom: 1px #ddd solid;
+     padding-bottom: 20px;
+ }
+ .business-info-table .business-info-table-tbody tr td:last-child{
+     width: 240px;
+     text-align: center;
+ }
+
+ .tip-modal{
+     display: none;
+     width: 500px;
+     height: 388px;
+     margin: 0 auto;
+     background-color: floralwhite;
+ }
+ .add-business-input-group{
+     margin-bottom: 15px;
+ }
+ .shouquan-tip-modal{
+     height: 238px;
+ }
+ .my-button{
+     width: 100px;
+     letter-spacing: 3px;
+     padding: 7px;
+ }
